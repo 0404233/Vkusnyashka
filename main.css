@@ -1,0 +1,37 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.butt.hide {
+    display: none;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    transition: 0.3s linear;
+}
