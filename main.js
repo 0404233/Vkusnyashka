@@ -8,7 +8,7 @@
 // }
 
 
-const count = 10;
+const count = 10 ** 9;
 let i = 0;
 
 const butt = document.querySelector('.butt');
