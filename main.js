@@ -16,24 +16,18 @@ butt.addEventListener('click', bys);
 
 
 function bys() { 
-//     let interval = setInterval(function () {
-//     let img = document.createElement('img');
-//     img.src = "./s.svg";
-//     document.body.append(img);
-
-//     i++;
-
-//     if (i === count) {
-//         clearInterval(interval)
-//     }
-// }, 200);
-
-while (i < count) {
+    let interval = setInterval(function () {
     let img = document.createElement('img');
     img.src = "./s.svg";
     document.body.append(img);
+
     i++;
-}
+
+    if (i === count) {
+        clearInterval(interval)
+    }
+}, 200);
+
 
 
 butt.classList.add('hide');
